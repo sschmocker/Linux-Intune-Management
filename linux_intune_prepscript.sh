@@ -23,8 +23,6 @@ dpkg -i packages-microsoft-prod.deb
 # Update the list of packages after we have added packages.microsoft.com
 sudo apt update
 
-#sudo apt upgrade -y
-
 # Remove the repository & GPG key package (as we imported it above)
 rm packages-microsoft-prod.deb
 
